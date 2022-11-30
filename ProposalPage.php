@@ -1,17 +1,3 @@
-<?php
-
-require 'ConfigForm.php';
-
-if (isset($_POST["submit"])) {
-
-  if (proposal($_POST) > 0) {
-    echo "<script> alert ('Data Telah Ditambahkan') </script>";
-  } else {
-    echo mysqli_error($conn);
-  }
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -61,7 +47,7 @@ if (isset($_POST["submit"])) {
   </div>
 
   <div class="fw-semibold shadow container-md my-3 py-3 rounded" style="background-color: #D9D9D9;">
-    <form action="" method="POST">
+    <form action="ConfigForm.php" method="POST">
       <img src="gambar/pngwing.com.png" class="rounded float-end" height="557" width="400" alt="pngwing.com.png">
       <div class="mb-3 col-md-8">
         <label for="nama" class="form-label">Nama</label>

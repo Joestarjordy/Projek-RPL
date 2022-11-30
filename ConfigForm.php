@@ -33,3 +33,26 @@ function proposal()
     '$berkasdokumen')");
     return mysqli_affected_rows($conn);
 }
+
+// submit
+if (isset($_POST["submit"])) {
+
+    if (proposal($_POST) > 0) {
+        echo "<script> alert ('Data Telah Ditambahkan') </script>";
+    } else {
+        echo mysqli_error($conn);
+    }
+}
+
+?>
+
+<!doctype html>
+<html lang="en">
+
+<body>
+    <script>
+        window.history.go(-1);
+    </script>
+</body>
+
+</html>
