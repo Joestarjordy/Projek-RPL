@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" modified="2022-11-29T18:47:58.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.56" etag="AdAyb4jKVxh1lnLwH6JF" version="20.6.0" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1483" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-1" value="ProposalPage" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="301" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-2" value="ProposalControl" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="290" width="100" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-3" value="Proposal" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="300" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="303.5" width="50" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="284" y="760" as="sourcePoint" />
+            <mxPoint x="284" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;startArrow=none;entryX=0.584;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jn3MBE7cx7BbvKMgzzpd-13" target="jn3MBE7cx7BbvKMgzzpd-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="740.9999999999998" as="sourcePoint" />
+            <mxPoint x="620" y="421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-11" value="" style="endArrow=none;dashed=1;html=1;rounded=0;startArrow=none;" edge="1" parent="1" target="jn3MBE7cx7BbvKMgzzpd-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="760" as="sourcePoint" />
+            <mxPoint x="970" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="jn3MBE7cx7BbvKMgzzpd-32" target="jn3MBE7cx7BbvKMgzzpd-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1340" y="741" as="sourcePoint" />
+            <mxPoint x="1339.8200000000002" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-13" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="431" width="20" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-15" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="jn3MBE7cx7BbvKMgzzpd-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="760" as="sourcePoint" />
+            <mxPoint x="540.4100000000001" y="421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.026;entryY=0.078;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="jn3MBE7cx7BbvKMgzzpd-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="284" y="453" as="sourcePoint" />
+            <mxPoint x="531.4799999999998" y="452.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-20" value="click button Proposal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="451" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.004;entryY=0.246;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="jn3MBE7cx7BbvKMgzzpd-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="284.52" y="501.4" as="sourcePoint" />
+            <mxPoint x="531.9999999999998" y="501" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-24" value="input data(nama, nim, topik skripsi, calon pembimbing,&lt;br&gt;calon pembimbing 2, berkas dokumen)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="501" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.065;entryY=0.126;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="jn3MBE7cx7BbvKMgzzpd-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="531" as="sourcePoint" />
+            <mxPoint x="890" y="541" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-27" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="521" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-28" value="data Proposal(nama, nim, topik skripsi, calon pembimbing,&lt;br&gt;calon pembimbing 2, berkas dokumen)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="531" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-29" value="data Proposal(nama, nim, topik skripsi, calon pembimbing,&lt;br&gt;calon pembimbing 2, berkas dokumen)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="561" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.079;entryY=0.116;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="jn3MBE7cx7BbvKMgzzpd-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="561.1" as="sourcePoint" />
+            <mxPoint x="1290" y="571" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-32" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="541" width="20" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" target="jn3MBE7cx7BbvKMgzzpd-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1340" y="760" as="sourcePoint" />
+            <mxPoint x="1340" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="jn3MBE7cx7BbvKMgzzpd-32" target="jn3MBE7cx7BbvKMgzzpd-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-35" value="submit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="621" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-36" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="703" as="sourcePoint" />
+            <mxPoint x="286" y="703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jn3MBE7cx7BbvKMgzzpd-37" value="Output data tersimpan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="701" width="140" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
