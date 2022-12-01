@@ -75,7 +75,7 @@
       </div>
       <div class="col-md-8 py-1 d-flex flex-row-reverse">
         <button type="submit" class="shadow btn btn-primary" name="submit">Submit</button>
-        <button type="reset" class="shadow btn btn-primary me-3">Clear All</button>
+        <button type="reset" class="shadow btn btn-primary me-3">Clear Form</button>
       </div>
     </form>
   </div>

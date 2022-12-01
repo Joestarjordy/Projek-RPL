@@ -19,10 +19,17 @@
         $calonpembimbing2 = $_POST["calonpembimbing2"];
         $berkasdokumen = $_POST["berkasdokumen"];
 
+        // cek nama
+        $result = mysqli_query($conn, "SELECT nama FROM mahasiswa WHERE nama = '$nama'");
+        if (mysqli_fetch_assoc($result)) {
+            echo "<script> alert ('Nama sudah terdaftar, pastikan terlebih dahulu') </script>";
+            return false;
+        }
+
         // cek nim
         $result = mysqli_query($conn, "SELECT nim FROM mahasiswa WHERE nim = '$nim'");
         if (mysqli_fetch_assoc($result)) {
-            echo "<script> alert ('Nim sudah terdaftar, pastikan nim terlebih dahulu') </script>";
+            echo "<script> alert ('Nim sudah terdaftar, pastikan terlebih dahulu') </script>";
             return false;
         }
 
@@ -33,7 +40,7 @@
             return false;
         }
 
-        // menambahkan mahasiswa baru ke database
+        // menambahkan data mahasiswa baru ke database
         mysqli_query($conn, "INSERT INTO mahasiswa VALUES('$nama', '$nim', '$topikskripsi', '$calonpembimbing', '$calonpembimbing2', 
     '$berkasdokumen')");
         return mysqli_affected_rows($conn);
