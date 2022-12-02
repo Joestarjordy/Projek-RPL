@@ -22,21 +22,27 @@
         // cek nama
         $result = mysqli_query($conn, "SELECT nama FROM mahasiswa WHERE nama = '$nama'");
         if (mysqli_fetch_assoc($result)) {
-            echo "<script> alert ('Nama sudah terdaftar, pastikan terlebih dahulu') </script>";
+            echo "<script> alert ('Nama sudah terdaftar, pastikan terlebih dahulu');
+            location.href = 'http://localhost/project%20rpl/ProposalPage.php'
+             </script>";
             return false;
         }
 
         // cek nim
         $result = mysqli_query($conn, "SELECT nim FROM mahasiswa WHERE nim = '$nim'");
         if (mysqli_fetch_assoc($result)) {
-            echo "<script> alert ('Nim sudah terdaftar, pastikan terlebih dahulu') </script>";
+            echo "<script> alert ('Nim sudah terdaftar, pastikan terlebih dahulu');
+            location.href = 'http://localhost/project%20rpl/ProposalPage.php'
+             </script>";
             return false;
         }
 
         // cek topik skripsi
         $result = mysqli_query($conn, "SELECT topikskripsi FROM mahasiswa WHERE topikskripsi = '$topikskripsi'");
         if (mysqli_fetch_assoc($result)) {
-            echo "<script> alert ('Topik skripsi sudah terdaftar') </script>";
+            echo "<script> alert ('Topik skripsi sudah terdaftar');
+            location.href = 'http://localhost/project%20rpl/ProposalPage.php'
+             </script>";
             return false;
         }
 
