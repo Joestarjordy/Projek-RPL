@@ -16,7 +16,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-secondary fixed-top" id="mainNav">
     <div class="container">
-      <a class="nav-item" href="#page-top">
+      <a class="nav-item" href="ProposalPage.php">
         <img src="gambar/filkom_ub.png" width="170" height="65" alt="filkom_ub">
       </a>
 
@@ -29,10 +29,10 @@
             <a class="text-white nav-link active fs-5 p-3" aria-current="page" href="UnduhBerkasPage.php">Unduh Berkas</a>
           </li>
           <li class="nav-item">
-            <a class="text-white nav-link active fs-5 p-3" aria-current="page" href="PraProposalPage.php">PraProposal</a>
+            <a class="text-dark nav-link active fs-5 p-3" aria-current="page" href="PraProposalPage.php">PraProposal</a>
           </li>
           <li class="nav-item">
-            <a class="text-white nav-link active fs-5 p-3" aria-current="page" href="ProposalPage.php">Proposal</a>
+            <a class="text-dark nav-link active fs-5 p-3" aria-current="page" href="ProsesVerifikasi.php">Proposal</a>
           </li>
           </li>
         </ul>
@@ -41,6 +41,14 @@
   </nav>
 
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <footer class="text-center text-lg-start text-white bg-secondary">
+    <div class="text-center p-3">
+      © 2022 Copyright:
+      <a class="text-white" href="https://www.instagram.com/">Jordy Cahya Buana</a>
+    </div>
+  </footer>
+
 </body>
 
 </html>

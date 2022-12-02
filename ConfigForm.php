@@ -46,21 +46,19 @@
         return mysqli_affected_rows($conn);
     }
 
-    // submit
+    // submit button
     if (isset($_POST["submit"])) {
 
         if (proposal($_POST) > 0) {
-            echo "<script> alert ('Data Telah Ditambahkan') </script>";
+            echo "<script> alert ('Data Telah Ditambahkan'); 
+            location.href = 'http://localhost/project%20rpl/ProsesVerifikasi.php' 
+            </script>";
         } else {
             echo mysqli_error($conn);
         }
     }
 
     ?>
-
-    <script>
-        window.history.go(-1);
-    </script>
 
 </body>
 
